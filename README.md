@@ -26,20 +26,20 @@ Long Tasks Service - это система обработки длительны
 
 ```bash
 # Клонирование репозитория
-git clone https://github.com/example/longtasks.git
-cd longtasks
+git clone https://github.com/MR-d3R/LongTaskRunner
+cd LongTaskRunner
 
 # Установка зависимостей
 go mod download
 
 # Сборка проекта
-go build -o longtasks-service
+go build -o longtasksrunner-service
 ```
 
 ## Запуск
 
 ```bash
-./longtasks-service
+./longtasksrunner-service
 ```
 
 По умолчанию сервис запускается на порту 8080. Для изменения порта можно использовать переменные окружения (см. раздел Конфигурация).
